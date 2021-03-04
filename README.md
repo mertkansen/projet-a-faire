@@ -1,3 +1,5 @@
+Link to app: http://mertkansen.github.io/projet-a-faire
+
 This is a project made with React.js, css and with some material-ui icons and other components. 
 
 In this project: You need to log in to see the home page. Before logging in, you need to sign up first.
