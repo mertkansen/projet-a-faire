@@ -4,7 +4,9 @@ This is a project made with React.js, css and with some material-ui icons and ot
 
 In this project: You need to log in to see the home page. Before logging in, you need to sign up first.
 
-After signing up with a username and password, app redirects the user to the log in page. When the user logs in, app redirects the user to the home page.
+After signing up with a username and password, app redirects the user to the log in page. 
+When the user logs in, app redirects the user to the home page. 
+Furthermore, there is also a movies page which has created using the data provided by TMDB API
 
 In this React app, i used:
 
