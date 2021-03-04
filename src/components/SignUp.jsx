@@ -125,7 +125,7 @@ const SignUp = ({ logIn }) => {
             <button
               type="submit"
               name="logIn"
-              className="signUp__logInButton"
+              className={`signUp__logInButton ${password.length < 4 && 'movies__disabledButton'}`}
               disabled={password.length < 4}
             >
               Log in
@@ -138,7 +138,7 @@ const SignUp = ({ logIn }) => {
               </p>
               <button
                 name="signUp"
-                className="signUp__signUpButton"
+                className={`signUp__signUpButton ${password.length < 4 && 'movies__disabledButton'}`}
                 type="submit"
                 disabled={password.length < 4}
               >

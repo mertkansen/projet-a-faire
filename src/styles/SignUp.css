@@ -74,3 +74,11 @@
 .more {
   border-bottom: 5px solid green;
 }
+
+.movies__disabledButton {
+  opacity: 0.8;
+}
+
+.movies__disabledButton:hover {
+  transform: scale(0.95);
+}
