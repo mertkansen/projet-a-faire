@@ -1,6 +1,6 @@
-This is a project made with React, css and with some material-ui icons and other components. 
+This is a project made with React.js, css and with some material-ui icons and other components. 
 
-In this project You need to log in to see the home page. Before logging in, you need to sign up first.
+In this project: You need to log in to see the home page. Before logging in, you need to sign up first.
 
 After signing up with a username and password, app redirects the user to the log in page. When the user logs in, app redirects the user to the home page.
 
