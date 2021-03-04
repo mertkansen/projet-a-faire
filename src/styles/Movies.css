@@ -1,0 +1,39 @@
+.movies {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: minmax(300, auto);
+  row-gap: 1em;
+
+  justify-items: center;
+  align-items: center;
+
+  margin-bottom: 4em;
+}
+
+.movies__pageTitle {
+  font-weight: 500;
+  margin-top: 1em;
+  text-align: center;
+  cursor: default;
+}
+
+@media (max-width: 1160px) {
+  .movies {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 750px) {
+  .movies {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+.movies__indicator {
+  display: flex;
+  justify-content: center !important;
+  align-content: center !important;
+  margin-top: 18em;
+}
